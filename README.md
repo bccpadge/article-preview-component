@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor]()
-- Live Site URL: [Github Pages]()
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/article-preview-component-using-html-css-and-javascript-ZQkE6nZG5x)
+- Live Site URL: [Github Pages](https://bccpadge.github.io/article-preview-component/)
 
 ## My process
 
