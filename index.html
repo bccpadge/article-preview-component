@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description" content="Frontend Mentor challenge" />
+  <meta name="keywords" content="HTML, CSS, JavaScript" />
+  <meta name="author" content="Rebecca Padgett" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+  <title>Frontend Mentor | Article preview component</title>
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet" />
+  <!-- font awesome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <!-- css -->
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <!-- JavaScript -->
+  <script src="assets/js/script.js" defer></script>
+</head>
+
+<body class="grid">
+  <main class="article__card grid">
+    <h1 class="visually-hidden">Article preview component</h1>
+    <!-- image box -->
+    <div class="image__box">
+      <img src="./assets/images/drawers.jpg" width="660" height="528" alt="drawers" />
+    </div>
+    <article class="article__group grid">
+      <h2 class="article__title">
+        Shift the overall look and feel by adding these wonderful touches to
+        furniture in your home
+      </h2>
+      <p class="article__description">
+        Ever been in a room and felt like something was missing? Perhaps it
+        felt slightly bare and uninviting. I've got some simple tips to help
+        you make any room feel complete.
+      </p>
+      <section class="article__footer flex">
+        <figure class="article__footer-author flex">
+          <img src="./assets/images/avatar-michelle.jpg" width="35" height="35" alt="headshot of Michelle Appleton">
+          <figcaption class="article__footer-info">
+            <h3 class="article__footer-name">Michelle Appleton</h3>
+            <time datetime="2020-06-28">28 Jun 2020</time>
+          </figcaption>
+        </figure>
+        <button class="share__button" aria-label="click here to show social media icons" data-js-button
+          aria-expanded="false" aria-haspopup="true" aria-controls="share">
+          <i class="fa-solid fa-share"></i>
+        </button>
+      </section>
+      <div class="article__tooltip flex" data-js-tooltip role="tooltip" aria-expanded="false" id="share">
+        <h4 class="article__tooltip-title">Share</h4>
+        <ul class="share__list flex">
+          <li>
+            <a href="#" class="share__list-link" aria-label="facebook">
+              <i class="fa-brands fa-square-facebook"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="share__list-link" aria-label="twitter">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="share__list-link" aria-label="pinterest">
+              <i class="fa-brands fa-pinterest"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </article>
+  </main>
+
+  <footer>
+    <p class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a
+        href="#">Rebecca Padgett</a>.
+    </p>
+  </footer>
+</body>
+
+</html>
